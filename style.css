@@ -3,19 +3,19 @@
 * {
 	box-sizing: border-box;
 }
+input:focus { 
+    background-color: yellow;
+}
 
 :root {
 	--base-color: #948B80;
 }
 
 body {
-	background: #e6e6e6;
-	background: -moz-linear-gradient(-45deg, #e6e6e6 0%, #c0c0c0 100%);
-	background: -webkit-linear-gradient(-45deg, #e6e6e6 0%,#c0c0c0 100%);
-	background: linear-gradient(135deg, #e6e6e6 0%,#c0c0c0 100%);
+	background: #2c3e50;
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e6e6', endColorstr='#c0c0c0',GradientType=1 );
 	
-	height: 100vh;
+	height: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -27,7 +27,7 @@ a {
 }
 
 form {
-	background-image: url('https://images.pexels.com/photos/121192/pexels-photo-121192.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');
+	background:#7f8c8d;
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 0 50px;
@@ -61,10 +61,15 @@ form section {
 	padding: 40px 0;
 	margin-bottom: 40px;
 }
+h2{
+	color: white;
+}
+.radioDiv label { color:white; }
 select {
-    border: 1px solid #fff;
-    background-color: transparent;
+    
+    color: white;
    width: 39%;
+   background-color: rgba(255, 255, 255, 0.2);
    height: 40px;
    border-radius: 30px;
 }
@@ -186,3 +191,11 @@ form footer a:hover {
 		padding: 0 15px;
 	}
 }
+
+
+
+
+
+
+
+

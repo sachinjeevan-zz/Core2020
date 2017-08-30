@@ -9,9 +9,32 @@
 </head>
 <body>
 <form>
+		<style> 
+				.radio-container { 
+					box-sizing: border-box; 
+					font-family: ‘Open Sans’, sans-serif; 
+					font-size: 13px; 
+					line-height: 30px; 
+					margin: 0; 
+					 outline: 0; 
+					overflow: hidden; 
+					padding: 0; 
+				}
+		
+		
+				.radio-container input { 
+					 box-sizing: border-box; 
+					margin: 0; 
+					outline: 0; 
+					padding: 0; 
+					position: relative; 
+					top: 9px; 
+					vertical-align: top; 
+				 } 
+			</style> 
 	<header>
 		<fieldset>
-		<legend style="text-decoration-color: white;">PROFILE</legend>
+		<legend style="color: white;">PROFILE</legend>
 		<section id="section-1">
 		<div class="form-group">
 			<input id="user" placeholder="USER NAME" type="text" autocomplete="off" required />
@@ -29,7 +52,8 @@
 			<input id="emailAddress" style="width: 60%;" placeholder="EMAIL-ADDRESS" type="email" required />
 			
 <select>
-  <option value="@gmail.com">@gmail.com</option>
+  <option style="background-color: rgba(255, 255, 255, 0.2);"
+   value="@gmail.com">@gmail.com</option>
   <option value="@yahoo.com">@yahoo.com</option>
   <option value="@hotmail.com">@hotmail.com</option>
   <option value="@ymail.com">@ymail.com</option>
@@ -38,16 +62,91 @@
 </label>
 			</label>
 		</div>
+<div class="form-group">
+	<input type="text" name="phone number" placeholder="PHONE NUMBER">
+</div>
+<div class="radio-container">
+		
+		<label>
+				 
+						<h2 >GENDER</h2> 
+					   <input name="green" type="radio" value="green"> 
+					   <label  style="color: white;  font-size:20px;">Male</label> 
+					   <input style="color: white;" name="blue" type="radio" value="blue"> 
+					   <label  style="color: white; font-size:20px;">Female </label>
+				   
+		</label>
+	</div>
+	<div class="radio-container">
+		<h2>SKILLS</h2>
+		<input name="black" type="checkbox" value="black"> 
+		<label  style="color: white;  font-size:20px;">C</label> 
+		<input style="color: white;" name="blue" type="checkbox" value="black"> 
+		<label  style="color: white; font-size:20px;">Java </label>
+		<input name="black" type="checkbox" value="black"> 
+		<label  style="color: white;  font-size:20px;">Python</label> 
+		<input style="color: white;" name="black" type="checkbox" value="black"> 
+		<label  style="color: white; font-size:20px;">Ruby</label>
+	
 
-		<div class="form-group-check">
-			<input id="keep" type="checkbox" /><label for="keep">Keep me Signed in</label>
-		</div>
-		<div class="form-group">
-			<input type="button" value="Sign In"/>
-		</div>
+	</div>
+		
 	</section>
 	
-	
 </form>
+</fieldset>
+<fieldset>
+		<legend style="color:aliceblue;">CURRENT ADDRESS</legend>
+		<div class="form-group">
+			<input type="number" name="DOOR NO" value="DOOR NO" placeholder="DOOR NO">
+		</div>
+		<div class="form-group">
+			<input type="text" name="STREET" value="STREET" placeholder="STREET NAME">
+		</div>
+		<div class="form-group">
+			<input type="text" name="LOCATION" value="LOCATION" placeholder="LOCATION">
+		</div>
+		<div class="form-group">
+			<input type="text" name="CITY" value="CITY" placeholder="CITY">
+		</div>
+		<div class="form-group">
+			<input type="text" name="STATE" value="STATE" placeholder="STATE">
+		</div>
+		<div class="form-group">
+			<input type="text" name="COUNTRY" value="COUNTRY" placeholder="COUNTRY">
+		</div>
+		<div class="form-group">
+			<input type="text" name="PINCODE" value="PINCODE" placeholder="PINCODE">
+		</div>
+			
+		
+	</fieldset>
+	<fieldset>
+			<legend style="color:aliceblue;">PERMANENT ADDRESS</legend>
+			<div class="form-group">
+				<input type="number" name="DOOR NO" value="DOOR NO" placeholder="DOOR NO">
+				
+			</div>
+			<div class="form-group">
+				<input type="text" name="STREET" value="STREET" placeholder="STREET NAME">
+			</div>
+			<div class="form-group">
+				<input type="text" name="LOCATION" value="LOCATION" placeholder="LOCATION">
+			</div>
+			<div class="form-group">
+				<input type="text" name="CITY" value="CITY" placeholder="CITY">
+			</div>
+			<div class="form-group">
+				<input type="text" name="STATE" value="STATE" placeholder="STATE">
+			</div>
+			<div class="form-group">
+				<input type="text" name="COUNTRY" value="COUNTRY" placeholder="COUNTRY">
+			</div>
+			<div class="form-group">
+				<input type="text" name="PINCODE" value="PINCODE" placeholder="PINCODE">
+			</div>
+				
+			
+		</fieldset>
 </body>
 </html>
